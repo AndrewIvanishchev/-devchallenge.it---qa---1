@@ -68,7 +68,7 @@ where:  -9223372036854775808 id of created pet
 13. Ckick "Send" 
 14. Check Status (expected: 200 OK)
 
---------------------------------------------GET METHOD (check if pet name was changed)-------------------------------------------
+  --------------------------------------------GET METHOD (check if pet name was changed)----------------------------------------
 
 
 15.For check pet added choose method "GET"; URL: http://petstore.swagger.io/v2/pet/-9223372036854775808
@@ -77,7 +77,8 @@ where:  -9223372036854775808 id of created pet
 17. Check Status (expected: 200 OK)
 18. Check if the name was changed (expected name: Goodbye_World)
 
--------------------------------------------------------DELETE METHOD (delete your pet)-----------------------------------------------
+
+------------------------------------------------DELETE METHOD (delete your pet)-----------------------------------------------
 
 19. For delete pet choose method "DELETE"; URL: http://petstore.swagger.io/v2/pet/-9223372036854775808
 where:  -9223372036854775808 id of created pet
